@@ -10,16 +10,16 @@ h1 {
     color: #383535;
 }
 
-ul {
+ul#routing {
     text-align: center;
 }
 
-ul li{
+ul#routing li{
     display: inline-block;
     list-style: none;
 }
 
-ul li a{
+ul#routing li a{
     text-decoration: none;
     margin-right: 10px;
     font-size: 2em;
@@ -29,6 +29,6 @@ ul li a{
     transition: 0.5ms all;
 }
 
-ul li a:hover{
+ul#routing li a:hover{
     border-bottom: 1px solid #000;
 }
